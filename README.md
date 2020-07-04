@@ -4,7 +4,7 @@ USAGE:
 2) From the project folder run -> 
         mvn clean install
 3) start application using 
-    java -jar target/<name-of-jar-file>
+    java -jar target/name-of-jar-file
 4) use Postman or curl {assuming the application started on 8080}
     
     http://localhost:8080/accounts/<accountId>/savingsgoal?triggerRoundUp=true
